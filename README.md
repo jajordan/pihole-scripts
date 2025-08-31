@@ -1,4 +1,4 @@
-## add-local-dns.sh — Manage Pi-hole custom DNS records via API
+## add-local-dns.sh — Script to manage Pi-hole custom DNS records via API
 
 ### Overview
 `add-local-dns.sh` creates or updates local DNS A records on one or more Pi-hole servers using Pi-hole’s HTTP API. It authenticates to each server, checks whether the record exists, removes an outdated mapping if needed, and adds the new mapping.
